@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`data service page matches snapshot 1`] = `
+<div>
+  <div
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary DataService-secondaryBar-1 MuiPaper-elevation0"
+    style={
+      Object {
+        "backgroundColor": "#18202c",
+      }
+    }
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-align-items-xs-center"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+        >
+          <h1
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-colorInherit"
+          >
+            Data Services
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="DataService-wrapper-2"
+  >
+    <div
+      className="MuiPaper-root DataService-paper-3 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <h4
+        className="MuiTypography-root DataService-title-4 MuiTypography-h4 MuiTypography-gutterBottom"
+      >
+        Creating Data Services
+      </h4>
+      <h6
+        className="MuiTypography-root DataService-subtitle-5 MuiTypography-h6 MuiTypography-gutterBottom"
+      >
+        Developing API services created using Flask framework
+      </h6>
+      <p
+        className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Project repository available on 
+        <a
+          className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          to="https://github.com/pyronlaboratory/perseus"
+        >
+           GitHub
+        </a>
+      </p>
+      <hr
+        className="MuiDivider-root DataService-divider-7"
+      />
+      <span
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <b>
+          Project dependencies:
+        </b>
+         
+        <br />
+        <br />
+        <code>
+           apispec==5.1.0
+        </code>
+        :
+        <p
+          className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          A pluggable API specification generator to create OpenAPI Specification in json/yaml format. 
+          <br />
+          <br />
+        </p>
+        <code>
+           apispec-webframeworks==0.5.2
+        </code>
+        :
+        <p
+          className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          APISpec plugins for integrating with various web frameworks. 
+          <br />
+          <br />
+        </p>
+        <code>
+           Flask==2.0.1
+        </code>
+        :
+        <p
+          className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          Python based microframework for web development. 
+          <br />
+          <br />
+        </p>
+        <code>
+           Flask-Cors==3.0.10
+        </code>
+        :
+        <p
+          className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          A Flask extension for handling Cross Origin Resource Sharing (CORS), allowing cross-origin requests. 
+          <br />
+          <br />
+        </p>
+        <code>
+           marshmallow==3.13.0
+        </code>
+        :
+        <p
+          className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          An ORM/ODM/framework-agnostic library for converting complex datatypes, such as objects, to and from native Python datatypes. 
+          <br />
+          <br />
+        </p>
+        <code>
+           unittest
+        </code>
+        :
+        <p
+          className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          Python's in-built unit test framework. 
+          <br />
+          <br />
+        </p>
+        <code>
+           python-dateutil==2.8.2
+        </code>
+        :
+        <p
+          className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          Datetime utility library. 
+          <br />
+          <br />
+        </p>
+        <code>
+           Werkzeug==2.0.1
+        </code>
+        :
+        <p
+          className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          A comprehensive WSGI web application library. 
+          <br />
+          <br />
+        </p>
+      </span>
+      <span
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <b>
+          Setting up development environment locally:
+        </b>
+         
+        <br />
+        <br />
+      </span>
+      <p
+        className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Clone the repository locally from GitHub and activate virtual environment to install dependencies from 
+        <code>
+          requirements.txt
+        </code>
+        <br />
+        <br />
+      </p>
+      <code>
+        $ git clone https://github.com/pyronlaboratory/perseus.git
+      </code>
+       
+      <br />
+      <br />
+      <code>
+        $ cd '.\\Perseus\\data services\\'
+      </code>
+      <br />
+      <br />
+      <code>
+        $ python -m virtualenv dev
+      </code>
+      <br />
+      <br />
+      <code>
+        $ .\\dev\\Scripts\\activate
+      </code>
+      <br />
+      <br />
+      <code>
+        (dev) $ pip install -r requirements.txt
+      </code>
+      <br />
+      <br />
+      <br />
+      <p
+        className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Start the server and head over to localhost on port 5000 
+        <br />
+        <br />
+      </p>
+      .
+      <code>
+        (dev) $ python app.py
+      </code>
+      <hr
+        className="MuiDivider-root DataService-divider-7"
+      />
+      <span
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <b>
+          Testing API endpoints using Swagger UI:
+        </b>
+         
+        <br />
+        <br />
+      </span>
+      <p
+        className="MuiTypography-root DataService-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        API endpoints have been documented as per 
+        <b>
+          OpenAPI Specifications
+        </b>
+         using Swagger UI. To run quick tests on the endpoints head over to 
+        <code>
+          http://localhost:5000/docs
+        </code>
+        <br />
+        <br />
+      </p>
+    </div>
+  </div>
+</div>
+`;

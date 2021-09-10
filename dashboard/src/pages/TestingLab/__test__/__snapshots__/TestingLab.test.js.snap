@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing labs page matches snapshot 1`] = `
+<div>
+  <div
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary TestingLab-secondaryBar-1 MuiPaper-elevation0"
+    style={
+      Object {
+        "backgroundColor": "#18202c",
+      }
+    }
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-align-items-xs-center"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+        >
+          <h1
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-colorInherit"
+          >
+            Testing Lab
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="TestingLab-wrapper-2"
+  >
+    <div
+      className="MuiPaper-root TestingLab-paper-3 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <h4
+        className="MuiTypography-root TestingLab-title-4 MuiTypography-h4 MuiTypography-gutterBottom"
+      >
+        Testing Web UI and Data Services
+      </h4>
+      <h6
+        className="MuiTypography-root TestingLab-subtitle-5 MuiTypography-h6 MuiTypography-gutterBottom"
+      >
+        Unit testing 
+        <code>
+          React
+        </code>
+         components and containers
+      </h6>
+      <hr
+        className="MuiDivider-root TestingLab-divider-7"
+      />
+      <p
+        className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        This documentation section focuses on testing strategies for rendering component trees in a simplified test environment and asserting on their output.
+        <br />
+        <br />
+      </p>
+      <span
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <b>
+          Testing dependencies:
+        </b>
+         
+        <br />
+        <br />
+        <code>
+          "@testing-library/dom": "^8.3.0"
+        </code>
+        : 
+        <br />
+        <code>
+          "@testing-library/jest-dom": "^5.11.4"
+        </code>
+        : 
+        <br />
+        <code>
+          "@testing-library/react": "^11.1.0"
+        </code>
+        : 
+        <br />
+        <code>
+          "@testing-library/user-event": "^12.1.10"
+        </code>
+        : 
+        <br />
+        <code>
+          "react-test-renderer": "^17.0.2"
+        </code>
+        : 
+        <br />
+        <br />
+      </span>
+      <hr
+        className="MuiDivider-root TestingLab-divider-7"
+      />
+      <span
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <b>
+          Setting up unit tests:
+        </b>
+        <br />
+        <br />
+      </span>
+      <p
+        className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Create a folder within the Component's folder with the name 
+        <code>
+          <b>
+            __test__
+          </b>
+        </code>
+         and place the test file with 
+        <code>
+          <b>
+            .test.js
+          </b>
+        </code>
+         extension for test runners to access. 
+        <br />
+        <br />
+      </p>
+      <p
+        className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Start running Test Suites using the following command:
+      </p>
+      <code>
+        $ npm test
+      </code>
+      <br />
+      <br />
+      <p
+        className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Use 
+        <code>
+          <b>
+            react-test-renderer
+          </b>
+        </code>
+         to write snapshot test cases. If test cases are succesfully completed, a flattened snapshot of the component in 
+        <code>
+          <b>
+            .json
+          </b>
+        </code>
+         format, is created within 
+        <code>
+          <b>
+            __snapshots__
+          </b>
+        </code>
+         folder automatically. 
+        <br />
+        <br />
+      </p>
+      <p
+        className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Snapshot tests are a very useful tool whenever you want to make sure your UI does not change unexpectedly. A typical snapshot test case renders a UI component, takes a snapshot, then compares it to a reference snapshot file stored alongside the test.
+        <br />
+         
+        <br />
+      </p>
+      <hr
+        className="MuiDivider-root TestingLab-divider-7"
+      />
+      <h6
+        className="MuiTypography-root TestingLab-subtitle-5 MuiTypography-h6 MuiTypography-gutterBottom"
+      >
+        Unit testing API services using 
+        <code>
+          unittest
+        </code>
+      </h6>
+      <span
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <b>
+          Testing dependencies:
+        </b>
+         
+        <br />
+        <br />
+        <p
+          className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          No additional dependencies are required.
+          <br />
+           
+          <br />
+        </p>
+      </span>
+      <hr
+        className="MuiDivider-root TestingLab-divider-7"
+      />
+      <span
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <b>
+          Setting up unit tests:
+        </b>
+         
+        <br />
+        <br />
+        <p
+          className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          A testcase is created by subclassing 
+          <code>
+            <b>
+              unittest.TestCase
+            </b>
+          </code>
+          .The three individual tests are defined with methods whose names start with the letters 
+          <b>
+            test
+          </b>
+          . This naming convention informs the test runner about which methods represent tests.
+          <br />
+           
+          <br />
+        </p>
+        <p
+          className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          The crux of each test is a call to 
+          <code>
+            <b>
+              assertEqual()
+            </b>
+          </code>
+           to check for an expected result; 
+          <code>
+            <b>
+              assertTrue()
+            </b>
+          </code>
+           or 
+          <code>
+            <b>
+              assertFalse()
+            </b>
+          </code>
+           to verify a condition; or 
+          <code>
+            <b>
+              assertRaises()
+            </b>
+          </code>
+           to verify that a specific exception gets raised. These methods are used instead of the assert statement so the test runner can accumulate all test results and produce a report. 
+          <br />
+          <br />
+        </p>
+        <p
+          className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          The final block shows a simple way to run the tests. unittest.main() provides a command-line interface to the test script.
+        </p>
+        <p
+          className="MuiTypography-root TestingLab-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          Start running Test Suites using the following command:
+          <br />
+          <code>
+            (dev) $ python .\\tests.py
+          </code>
+          <br />
+          <br />
+        </p>
+      </span>
+    </div>
+  </div>
+</div>
+`;

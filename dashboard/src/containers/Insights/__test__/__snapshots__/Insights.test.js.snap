@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`insights container matches snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-3"
+    >
+      <div
+        className="MuiPaper-root makeStyles-root-5 MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="statistics-card"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root makeStyles-title-6 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+          >
+            Fastest user to complete a course
+          </p>
+          <h1
+            className="MuiTypography-root makeStyles-text-7 MuiTypography-h5"
+          >
+            undefined, undefined
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-3"
+    >
+      <div
+        className="MuiPaper-root makeStyles-root-5 MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="statistics-card"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root makeStyles-title-6 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+          >
+            Average course completion time
+          </p>
+          <h1
+            className="MuiTypography-root makeStyles-text-7 MuiTypography-h5"
+          >
+            0 days
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-3"
+    >
+      <div
+        className="MuiPaper-root makeStyles-root-5 MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="statistics-card"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root makeStyles-title-6 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+          >
+            Most attempted course
+          </p>
+          <h1
+            className="MuiTypography-root makeStyles-text-7 MuiTypography-h5"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-3"
+    >
+      <div
+        className="MuiPaper-root makeStyles-root-5 MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="statistics-card"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root makeStyles-title-6 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+          >
+            Least attempted course
+          </p>
+          <h1
+            className="MuiTypography-root makeStyles-text-7 MuiTypography-h5"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-8"
+      style={
+        Object {
+          "marginBottom": "10px",
+        }
+      }
+    >
+      <p
+        className="MuiTypography-root makeStyles-title-4 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+      >
+        User attempts per month distribution
+      </p>
+      <div
+        className="MuiPaper-root makeStyles-wrapper-2 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <canvas
+          data-testid="canvas"
+          height={150}
+          onClick={[Function]}
+          role="img"
+          width={300}
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+      style={
+        Object {
+          "marginBottom": "10px",
+        }
+      }
+    >
+      <p
+        className="MuiTypography-root makeStyles-title-4 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+      >
+        User per course distribution
+      </p>
+      <div
+        className="MuiPaper-root makeStyles-wrapper-2 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <canvas
+          data-testid="canvas"
+          height={150}
+          onClick={[Function]}
+          role="img"
+          width={300}
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+    >
+      <p
+        className="MuiTypography-root makeStyles-title-4 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+      >
+        Recent submissions
+      </p>
+      <div
+        className="makeStyles-paper-3"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+    >
+      <p
+        className="MuiTypography-root makeStyles-title-4 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+      >
+        Fastest submissions
+      </p>
+      <div
+        className="makeStyles-paper-3"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+    >
+      <p
+        className="MuiTypography-root makeStyles-title-4 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+      >
+        Most submissions
+      </p>
+      <div
+        className="makeStyles-paper-3"
+      />
+    </div>
+  </div>
+</div>
+`;

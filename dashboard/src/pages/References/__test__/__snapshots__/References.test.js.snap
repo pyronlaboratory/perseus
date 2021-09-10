@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`references page matches snapshot 1`] = `
+<div>
+  <div
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary References-secondaryBar-1 MuiPaper-elevation0"
+    style={
+      Object {
+        "backgroundColor": "#18202c",
+      }
+    }
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-align-items-xs-center"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+        >
+          <h1
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-colorInherit"
+          >
+            References
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="References-wrapper-2"
+  >
+    <div
+      className="MuiPaper-root References-paper-3 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <b>
+          Following online resources were used during the development of this case study
+        </b>
+        <hr
+          className="MuiDivider-root References-divider-7"
+        />
+        <code>
+          React.js
+        </code>
+        :
+        <p
+          className="MuiTypography-root References-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          A JavaScript library for building user interfaces. 
+          <br />
+          https://reactjs.org/ 
+          <br />
+          <br />
+        </p>
+        <code>
+          Material UI
+        </code>
+        :
+        <p
+          className="MuiTypography-root References-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          React components for faster and easier web development. Build your own design system, or start with Material Design. 
+          <br />
+          https://material-ui.com/guides/api/ 
+          <br />
+          <br />
+        </p>
+        <code>
+          Flask
+        </code>
+        :
+        <p
+          className="MuiTypography-root References-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          Python based microframework for web development. 
+          <br />
+          https://flask.palletsprojects.com/en/2.0.x/
+          <br />
+          <br />
+        </p>
+        <code>
+          Heroku
+        </code>
+        :
+        <p
+          className="MuiTypography-root References-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          Learn about building, deploying, and managing your apps on Heroku. Heroku makes it easy to deploy and scale Python apps. Whether you prefer frameworks like Django or Flask, or getting your hands dirty with Twisted or raw sockets, Heroku helps you build things your way with the tools you love.
+          <br />
+          https://devcenter.heroku.com/
+          <br />
+          <br />
+        </p>
+        <code>
+          Firebase
+        </code>
+        :
+        <p
+          className="MuiTypography-root References-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          Firebase helps you build and run successful apps. This application is running on Firebase.
+          <br />
+          https://firebase.google.com/docs
+          <br />
+          <br />
+        </p>
+        <code>
+          Docker
+        </code>
+        :
+        <p
+          className="MuiTypography-root References-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          Build safer, share wider, run faster.
+          <br />
+          https://docs.docker.com/
+          <br />
+          <br />
+        </p>
+        <p
+          className="MuiTypography-root References-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          and good old.. 
+          <br />
+          <br />
+        </p>
+        <code>
+          StackOverflow
+        </code>
+        :
+        <p
+          className="MuiTypography-root References-text-6 MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          https://stackoverflow.com/ 
+          <br />
+          <br />
+        </p>
+      </span>
+    </div>
+  </div>
+</div>
+`;

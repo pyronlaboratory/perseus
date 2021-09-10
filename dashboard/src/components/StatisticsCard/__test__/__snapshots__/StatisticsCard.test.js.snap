@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`statistics card component matches snapshot 1`] = `
+<div
+  className="MuiPaper-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  data-testid="statistics-card"
+>
+  <div
+    className="MuiCardContent-root"
+  >
+    <p
+      className="MuiTypography-root makeStyles-title-2 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+    >
+      Fastest user to complete a course
+    </p>
+    <h1
+      className="MuiTypography-root makeStyles-text-3 MuiTypography-h5"
+    >
+      Marsh, Randy
+    </h1>
+  </div>
+</div>
+`;

@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`navigator container matches snapshot 1`] = `
+<div
+  className="MuiDrawer-root MuiDrawer-docked"
+>
+  <div
+    className="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0"
+  >
+    <ul
+      className="MuiList-root"
+    >
+      <li
+        className="MuiListItem-root makeStyles-firebase-5 makeStyles-item-3 makeStyles-itemCategory-4 MuiListItem-gutters"
+        disabled={false}
+      >
+        <img
+          alt="logo"
+          className="App-logo"
+          src="logo.svg"
+        />
+      </li>
+      <li
+        className="MuiListItem-root makeStyles-item-3 makeStyles-itemCategory-4 MuiListItem-gutters"
+        disabled={false}
+      >
+        <div
+          className="MuiListItemIcon-root makeStyles-itemIcon-8"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+            />
+          </svg>
+        </div>
+        <div
+          className="MuiListItemText-root"
+        >
+          <span
+            className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-7 MuiTypography-body1 MuiTypography-displayBlock"
+          >
+            Project Overview
+          </span>
+        </div>
+      </li>
+      <li
+        className="MuiListItem-root makeStyles-categoryHeader-1 MuiListItem-gutters"
+        disabled={false}
+      >
+        <div
+          className="MuiListItemText-root"
+        >
+          <span
+            className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-2 MuiTypography-body1 MuiTypography-displayBlock"
+          >
+            Quick Links
+          </span>
+        </div>
+      </li>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <div
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiListItem-root makeStyles-item-10 makeStyles-itemActiveItem-11 MuiListItem-gutters MuiListItem-button"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root makeStyles-itemIcon-13"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-12 MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              Dashboard
+            </span>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/data-services"
+        onClick={[Function]}
+      >
+        <div
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiListItem-root makeStyles-item-10 MuiListItem-gutters MuiListItem-button"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root makeStyles-itemIcon-13"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 13H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2zM7 19c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM19 3H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM7 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-12 MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              Data Service
+            </span>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/containerization"
+        onClick={[Function]}
+      >
+        <div
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiListItem-root makeStyles-item-10 MuiListItem-gutters MuiListItem-button"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root makeStyles-itemIcon-13"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-12 MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              Containerization
+            </span>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/testing-lab"
+        onClick={[Function]}
+      >
+        <div
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiListItem-root makeStyles-item-10 MuiListItem-gutters MuiListItem-button"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root makeStyles-itemIcon-13"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10.82 12.49c.02-.16.04-.32.04-.49 0-.17-.02-.33-.04-.49l1.08-.82c.1-.07.12-.21.06-.32l-1.03-1.73c-.06-.11-.2-.15-.31-.11l-1.28.5c-.27-.2-.56-.36-.87-.49l-.2-1.33c0-.12-.11-.21-.24-.21H5.98c-.13 0-.24.09-.26.21l-.2 1.32c-.31.12-.6.3-.87.49l-1.28-.5c-.12-.05-.25 0-.31.11l-1.03 1.73c-.06.12-.03.25.07.33l1.08.82c-.02.16-.03.33-.03.49 0 .17.02.33.04.49l-1.09.83c-.1.07-.12.21-.06.32l1.03 1.73c.06.11.2.15.31.11l1.28-.5c.27.2.56.36.87.49l.2 1.32c.01.12.12.21.25.21h2.06c.13 0 .24-.09.25-.21l.2-1.32c.31-.12.6-.3.87-.49l1.28.5c.12.05.25 0 .31-.11l1.03-1.73c.06-.11.04-.24-.06-.32l-1.1-.83zM7 13.75c-.99 0-1.8-.78-1.8-1.75s.81-1.75 1.8-1.75 1.8.78 1.8 1.75S8 13.75 7 13.75zM18 1.01L8 1c-1.1 0-2 .9-2 2v3h2V5h10v14H8v-1H6v3c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-12 MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              Test Lab
+            </span>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/references"
+        onClick={[Function]}
+      >
+        <div
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiListItem-root makeStyles-item-10 MuiListItem-gutters MuiListItem-button"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root makeStyles-itemIcon-13"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-12 MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              References
+            </span>
+          </div>
+        </div>
+      </a>
+      <hr
+        className="MuiDivider-root makeStyles-divider-9"
+      />
+    </ul>
+  </div>
+</div>
+`;

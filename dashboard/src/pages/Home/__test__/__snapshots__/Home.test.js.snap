@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page matches snapshot 1`] = `
+Array [
+  <div
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary Home-secondaryBar-1 MuiPaper-elevation0"
+    style={
+      Object {
+        "backgroundColor": "#18202c",
+      }
+    }
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-align-items-xs-center"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+        >
+          <h1
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-colorInherit"
+          >
+            Dashboard
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary Home-secondaryBar-1 MuiPaper-elevation0"
+    style={
+      Object {
+        "backgroundColor": "#18202c",
+      }
+    }
+  >
+    <div
+      className="MuiTabs-root"
+    >
+      <div
+        className="MuiTabs-scroller MuiTabs-fixed"
+        onScroll={[Function]}
+        style={
+          Object {
+            "marginBottom": null,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <div
+          className="MuiTabs-flexContainer"
+          onKeyDown={[Function]}
+          role="tablist"
+        >
+          <button
+            aria-selected={true}
+            className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="tab"
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiTab-wrapper"
+            >
+              Overview
+            </span>
+            <span
+              className="PrivateTabIndicator-root-3 PrivateTabIndicator-colorSecondary-5 MuiTabs-indicator"
+              style={Object {}}
+            />
+          </button>
+          <button
+            aria-selected={false}
+            className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="tab"
+            tabIndex={-1}
+            type="button"
+          >
+            <span
+              className="MuiTab-wrapper"
+            >
+              Insights and Reporting
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Home-wrapper-2"
+    hidden={false}
+    id="simple-tabpanel-0"
+    role="tabpanel"
+  >
+    <div
+      className="MuiBox-root MuiBox-root-9"
+    >
+      <div
+        className="MuiPaper-root makeStyles-paper-8 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          style={
+            Object {
+              "height": 400,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Home-wrapper-2"
+    hidden={true}
+    id="simple-tabpanel-1"
+    role="tabpanel"
+  />,
+]
+`;
